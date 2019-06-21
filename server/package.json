@@ -1,0 +1,42 @@
+{
+  "name": "start_game_2_server",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "scripts": {
+    "start-server": "node dist/server",
+    "webpack-server": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "@nestjs/common": "6.3.1",
+    "@nestjs/core": "6.3.1",
+    "@nestjs/jwt": "^6.1.1",
+    "@nestjs/passport": "^6.1.0",
+    "@nestjs/platform-express": "6.3.1",
+    "@nestjs/platform-socket.io": "^6.3.1",
+    "@nestjs/testing": "^6.3.1",
+    "@nestjs/websockets": "^6.3.1",
+    "body-parser": "^1.19.0",
+    "passport": "^0.4.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-jwt": "^4.0.0",
+    "path": "^0.12.7",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.2",
+    "typescript": "^3.5.2"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/jest": "^24.0.13",
+    "@types/node": "10.14.8",
+    "@types/socket.io": "^2.1.2",
+    "jest": "^24.8.0",
+    "supertest": "^4.0.2",
+    "ts-jest": "^24.0.2",
+    "ts-loader": "6.0.2",
+    "ts-node": "8.2.0",
+    "webpack": "4.33.0",
+    "webpack-cli": "3.3.2",
+    "webpack-node-externals": "1.7.2"
+  }
+}
